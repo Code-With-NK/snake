@@ -1,0 +1,44 @@
+html {
+    background-color: dimgrey;
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    border-radius: 15px;
+}
+
+body, #holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+#holder {
+    justify-content: space-between;
+    margin: auto;
+}
+
+.controls {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button {
+    padding: 20px;
+    background-color: goldenrod;
+    border: 2px solid white;
+    border-radius: 12px;
+    color: white;
+    font-weight: bolder;
+}
